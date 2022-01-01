@@ -1,0 +1,24 @@
+{
+    "name": "chrr-cv",
+    "version": "0.0.0",
+    "scripts": {
+        "build": "vue-tsc --noEmit && vite build",
+        "dev": "vite",
+        "preview": "vite preview"
+    },
+    "dependencies": {
+        "@emotion/css": "^11.7.1",
+        "element-plus": "^1.2.0-beta.6",
+        "emotion": "^10.0.27",
+        "vue": "^3.2.25"
+    },
+    "devDependencies": {
+        "@vitejs/plugin-vue": "^2.0.0",
+        "typescript": "^4.4.4",
+        "unplugin-auto-import": "^0.5.3",
+        "unplugin-vue-components": "^0.17.8",
+        "vite": "^2.7.1",
+        "vue-cli-plugin-chakra-ui": "~1.0.3",
+        "vue-tsc": "^0.29.8"
+    }
+}
